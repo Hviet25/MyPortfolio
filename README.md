@@ -20,6 +20,21 @@
     + Managed timekeeping operations and ensured accurate attendance records to support payroll and HR reporting.
   + Technologies: Python, Odoo, PostgreSQL, Draw.io, Excel 
 ## Project:
+### Airbnb Price Prediction with What-If Scenario Analysis
+ **Code**: 
+ 
+ **Goal**: To evaluate the impact of what-if scenarios on Airbnb listing prices using machine learning.
+ 
+ **Description**: The dataset reflects the interaction between supply features, host credibility, and market feedback in determining Airbnb listing prices. This project involves loading and cleaning the data, performing exploratory data analysis (EDA), building an ETL pipeline for feature engineering, training and evaluating multiple machine learning models for price prediction, and applying what-if scenario analysis to generate actionable pricing insights.
+ 
+ **Technologies**: Python, Pandas, Numpy, Matplotlib, Seaborn, scikit-learn, XGBoost, LightGBM, GridSearchCV
+
+ **Result**: 
+    
+  + Trained and compared multiple machine learning models to predict Airbnb listing prices and selected the best-performing model using cross-validation.
+  + Conducted what-if scenario analysis to quantify how changes in listing features (e.g., accommodates, bathrooms, room type, cleaning fee, and review score) affect price.
+  + Translated model predictions into actionable pricing insights rather than standalone forecasts.
+
 ## Education:
 + Bachelor of Information Technology
   + HUTECH University of Technology, Oct 2021 - Jan 2025
