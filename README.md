@@ -21,7 +21,7 @@
   + Technologies: Python, Odoo, PostgreSQL, Draw.io, Excel 
 ## Project:
 ### Airbnb Price Prediction with What-If Scenario Analysis
- **Code**: 
+ **Code**: [Airbnb](https://github.com/Hviet25/MyProject/blob/main/Airbnb/airbnb.ipynb)
  
  **Goal**: To evaluate the impact of what-if scenarios on Airbnb listing prices using machine learning.
  
