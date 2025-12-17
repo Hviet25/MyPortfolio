@@ -35,6 +35,23 @@
   + Conducted what-if scenario analysis to quantify how changes in listing features (e.g., accommodates, bathrooms, room type, cleaning fee, and review score) affect price.
   + Translated model predictions into actionable pricing insights rather than standalone forecasts.
 
+### Enrollee Retention Prediction with Machine Learning and LLM Reasoning
+  **Code**: [Enrollee](https://github.com/Hviet25/MyProject/blob/main/Enrollee/LLM_Reasoning.ipynb)
+
+  **Goal**: To predict post-training employee retention using machine learning and enhance prediction interpretability through AI-agent–based LLM reasoning.
+  
+  **Description**: This project integrates data from multiple sources, including CSV, Excel, HTML tables, and Google Sheets, to predict whether an enrollee remains employed after completing a training program. Each data source is first explored independently through exploratory data analysis (EDA), followed by an ETL pipeline to clean, transform, and standardize the data. The processed datasets are then combined into a unified analytical dataset. Machine learning models are applied to estimate the probability of post-training retention, and feature importance analysis is conducted to identify key factors influencing employee retention. Finally, an AI agent powered by GPT-3.5-turbo is used to generate LLM-based reasoning that explains model predictions in a human-interpretable manner.
+
+  **Technologies**: Python, Pandas, NumPy, Scikit-learn, ETL pipelines, Feature Engineering, Random Forest, Decision Tree, LangChain, LangGraph, GPT-3.5-turbo, Prompt Engineering, Data Visualization
+
+  **Result**: 
+
+  + Built an end-to-end pipeline that integrates data from multiple sources into a unified dataset for analysis.
+  + Developed machine learning models to predict the probability of an enrollee remaining employed after completing a training program.
+  + Achieved reliable predictive performance, enabling meaningful estimation of retention likelihood.
+  + Identified key factors influencing employee retention through feature importance analysis.
+  + Implemented an AI-agent–driven LLM reasoning layer to generate human-readable explanations for model predictions.
+  + Transformed model outputs into interpretable insights to support data-informed workforce decisions.
 ## Education:
 + Bachelor of Information Technology
   + HUTECH University of Technology, Oct 2021 - Jan 2025
