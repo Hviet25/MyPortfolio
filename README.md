@@ -54,8 +54,9 @@
 
 ### Database Agent Query
   **Code**: 
-  [Database Agent Query with UI](https://github.com/Hviet25/MyProject/tree/main/database_agent_ui)
-  [Database Agent Query Notebook]()
+  + [Database Agent Query with UI](https://github.com/Hviet25/MyProject/tree/main/database_agent_ui)
+  + [Database Agent Query Notebook]()
+  
   **Goal**: To convert natural language user questions into executable SQL queries using an AI-agent–driven pipeline.
 
   **Description**: This project focuses on building an AI-agent–driven pipeline that converts user questions into executable SQL queries. Users can input natural language questions, after which the AI agent first checks whether the question is relevant to the underlying database schema. If the generated SQL query is valid and successfully executed, the system proceeds to generate the final answer. If the SQL query is invalid, the agent regenerates the query and repeats the process within a predefined number of iterations. Once the maximum number of regeneration attempts is reached, the pipeline terminates the loop and returns a final response. In addition, the project includes a Streamlit-based user interface that allows users to submit questions and receive answers in the form of visualizations and human-readable insights.
