@@ -55,7 +55,6 @@
 ### Database Agent Query
   **Code**: 
   + [Database Agent Query with UI](https://github.com/Hviet25/MyProject/tree/main/database_agent_ui)
-  + [Database Agent Query Notebook]()
   
   **Goal**: To convert natural language user questions into executable SQL queries using an AI-agent–driven pipeline.
 
